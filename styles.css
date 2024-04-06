@@ -1,0 +1,252 @@
+/* Custom styles for the e-commerce website */
+
+/* Body */
+body {
+  background-color: #161616; /* Set background color to #323232 */
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #161616; /* Set background color */
+  padding: 15px 20px; /* Add padding */
+  display: flex; /* Make the navigation bar a flex container */
+  justify-content: space-between; /* Distribute items evenly along the main axis */
+  align-items: center; /* Center items vertically */
+}
+
+.logo img {
+  max-height: 40px; /* Adjust logo height */
+}
+
+.nav-links,
+.nav-icons {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Display navigation links and icons as flex items */
+}
+
+.nav-links li,
+.nav-icons li {
+  margin-right: 20px; /* Adjust spacing between links/icons */
+}
+
+.nav-links li:last-child,
+.nav-icons li:last-child {
+  margin-right: 0; /* Remove margin from last child */
+}
+
+.nav-links a,
+.nav-icons a {
+  text-decoration: none;
+  color: #fff; /* Set link color */
+  font-weight: bold; /* Set font weight */
+  transition: color 0.3s ease; /* Add transition for smooth color change */
+}
+
+.nav-links a:hover,
+.nav-icons a:hover {
+  color: #ffc107; /* Change link color on hover */
+}
+
+.nav-icons {
+  margin-left: auto; /* Move icons to the right by default */
+}
+
+/* Jumbotron */
+.jumbotron {
+  background-color: #161616; /* Updated background color */
+  color: #fff;
+  border-radius: 0;
+  text-align: left;
+  margin-left: 0px;
+}
+
+.jumbotron h1 {
+  font-size: 3rem; /* Increased font size for better emphasis */
+  margin-bottom: 1rem; /* Added margin bottom for separation */
+}
+
+.jumbotron p {
+  font-size: 1.5rem; /* Increased font size for better readability */
+}
+
+.jumbotron input[type="text"] {
+  width: calc(100% - 110px); /* Make the input full width minus the width of the button */
+  max-width: 500px; /* Limit the maximum width of the input */
+  padding: 0.5rem; /* Added padding for better appearance */
+  border-radius: 10px 10 10 10px; /* Added border radius for top left and bottom left corners */
+  border: 1px solid #fff; /* Added border for better visibility */
+  color: #fff; /* Changed text color for better contrast */
+  background-color: #323232; /* Changed background color of the input field */
+  margin-right: 5px; /* Added margin to the right to create spacing */
+}
+
+.jumbotron .btn.btn-primary {
+  padding: 8px 16px; /* Padding for button */
+  cursor: pointer; /* Cursor style on hover */
+  border-radius: 10 10px 100px 10; /* Added border radius for top right and bottom right corners */
+  margin-left: 5px; /* Added margin to the left to create spacing */
+}
+
+
+/* Category Cards */
+.card {
+  background-color: #323232; /* Changed background color to white */
+  border: 1px solid #ddd; /* Added border for better separation */
+  border-radius: 5px; /* Added border radius for better appearance */
+  transition: transform 0.3s ease; /* Added transition for card hover effect */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Added hover effect to lift card slightly */
+}
+
+.card-title {
+  font-size: 1.5rem; /* Increased font size for better readability */
+  color: #fff; /* Changed text color for better contrast */
+}
+
+/* Special Offers Section */
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+.card-text {
+  font-size: 1.2rem; /* Increased font size for better readability */
+  color: #fff; /* Changed text color for better contrast */
+}
+
+/* Countdown Timer */
+.countdown {
+  background-color: #161616;
+  color: #fff;
+  padding: 1rem 0;
+  margin-top: 2rem; /* Increased margin top for better spacing */
+  text-align: center;
+}
+
+/* Footer */
+.footer {
+  background-color: #161616; /* Updated background color */
+  color: #aaa;
+  padding: 2rem 0; /* Increased padding for better spacing */
+  text-align: center; /* Center-align content */
+}
+
+.footer span {
+  font-size: 1rem; /* Increased font size for better readability */
+}
+
+/* Custom CSS */
+.search-button {
+  background-color: #007bff; /* Blue color for button */
+  color: #fff; /* White text color */
+  border: none; /* No border */
+  padding: 8px 16px; /* Padding for button */
+  cursor: pointer; /* Cursor style on hover */
+}
+
+.search-button:hover {
+  background-color: #0056b3; /* Darker blue color on hover */
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #161616; /* Adjust background color as needed */
+}
+
+.logo img {
+  max-height: 40px; /* Adjust logo height as needed */
+}
+
+.nav-links,
+.nav-icons {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav-links li,
+.nav-icons li {
+  margin-right: 20px; /* Adjust spacing between links/icons as needed */
+}
+
+.nav-links li:last-child,
+.nav-icons li:last-child {
+  margin-right: 0; /* Remove margin from last child */
+}
+
+.nav-links a,
+.nav-icons a {
+  text-decoration: none;
+  color: #fff; /* Adjust link color as needed */
+  font-weight: bold; /* Adjust font weight as needed */
+}
+
+.nav-icons {
+  list-style: none;
+  display: flex;
+}
+
+.nav-icons li {
+  margin-right: 1rem;
+}
+.btn.btn-primary {
+  background-color: #fff; /* White background color */
+  color: #000; /* Black text color */
+  border: 1px solid #000; /* Black border */
+  padding: 8px 16px; /* Padding for button */
+  cursor: pointer; /* Cursor style on hover */
+}
+
+.btn.btn-primary:hover {
+  background-color: #ccc; /* Light gray background color on hover */
+}
+/* Image */
+.img-fluid {
+  max-width: 100%; /* Ensures the image resizes responsively */
+  height: auto; /* Allows the image height to adjust accordingly */
+  border-radius: 8px; /* Added border radius for better appearance */
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1); /* Added subtle box shadow */
+}
+h2.text-center {
+  color: #fff; /* Text color */
+  font-size: 2rem; /* Font size */
+  margin-top: 50rem; /* Top margin */
+  margin-bottom: 2rem; /* Bottom margin */
+}
+/* Sidebar Styles */
+.bg-dark {
+  background-color: #333; /* Dark theme background */
+}
+
+.text-light {
+  color: #fff;
+}
+
+.special-offer-item {
+  border-bottom: 1px solid #777; /* Separator for offers */
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+/* Main Content Area Styles */
+.trending-now,
+.top-categories {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 991px) {
+  .bg-dark {
+    background-color: #222; /* Slightly lighter for contrast */
+  }
+}
